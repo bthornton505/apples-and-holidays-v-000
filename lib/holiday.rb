@@ -81,9 +81,9 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies.any? {|s| s.include?("BBQ")}
         bbq_holidays << holiday
       end 
-      return bbq_holidays
     end 
   end
+  bbq_holidays
 end
 
 
